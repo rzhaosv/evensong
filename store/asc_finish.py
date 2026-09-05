@@ -1,5 +1,5 @@
 import asc, json
-APP='TBD_EVENSONG'
+APP='6808895979'
 for i in asc.api('GET',f'/v1/apps/{APP}/appInfos')['data']:
     ID=asc.api('GET',f"/v1/appInfos/{i['id']}/ageRatingDeclaration")['data']['id']
     attrs={'advertising':False,'alcoholTobaccoOrDrugUseOrReferences':'NONE','contests':'NONE','gambling':False,'gamblingSimulated':'NONE','gunsOrOtherWeapons':'NONE','healthOrWellnessTopics':True,'lootBox':False,'medicalOrTreatmentInformation':'NONE','messagingAndChat':False,'parentalControls':False,'profanityOrCrudeHumor':'NONE','ageAssurance':False,'sexualContentGraphicAndNudity':'NONE','sexualContentOrNudity':'NONE','socialMedia':False,'socialMediaAgeRestricted':False,'horrorOrFearThemes':'NONE','matureOrSuggestiveThemes':'NONE','unrestrictedWebAccess':False,'userGeneratedContent':False,'violenceCartoonOrFantasy':'NONE','violenceRealisticProlongedGraphicOrSadistic':'NONE','violenceRealistic':'NONE','ageRatingOverrideV2':'NONE','koreaAgeRatingOverride':'NONE'}

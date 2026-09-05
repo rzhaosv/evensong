@@ -1,6 +1,6 @@
 """Set Evensong App Store metadata + screenshots via ASC API. Idempotent. Run from landed/.credentials with PYTHONPATH=."""
 import asc, json, os, glob, time
-APP='TBD_EVENSONG'
+APP='6808895979'
 SUBS=('TBD','TBD')
 SHOTS=sorted(glob.glob('/Users/raymondzhao/workspace/evensong/store/screenshots/0*.png'))
 DESC="""A morning reading and an evening reading, every day of the year. Evensong is a quiet daily devotional built on Charles Spurgeon's classic Morning and Evening, lightly updated for today's reader, with the verse each reading rests on and a short prayer to carry into the day or into sleep.
