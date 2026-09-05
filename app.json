@@ -45,6 +45,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "owner": "raymondzhao3000"
+    "owner": "raymondzhao3000",
+    "extra": {
+      "eas": {
+        "projectId": "d333531d-8937-4ae2-9c84-1aa6b4da4118"
+      }
+    }
   }
 }
