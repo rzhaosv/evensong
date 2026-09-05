@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Evensong",
+    "slug": "evensong",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "evensong",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F1E7",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.formaz.evensong",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSUserNotificationsUsageDescription": "Evensong sends two optional daily reminders, one for the morning reading and one for the evening reading, at the times you choose.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.formaz.evensong",
+      "adaptiveIcon": {
+        "backgroundColor": "#1C2233",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#E6B655"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1C2233"
+        }
+      ]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "raymondzhao3000"
+  }
+}
